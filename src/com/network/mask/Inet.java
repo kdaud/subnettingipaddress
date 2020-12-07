@@ -20,9 +20,9 @@ public class Inet {
 		try {
 			mySubnet();
 		}
-		catch (UnknownHostException ex) {
+		catch (UnknownHostException exception) {
 			// TODO Auto-generated catch block
-			ex.printStackTrace();
+			exception.printStackTrace();
 		}
 	}
 	
